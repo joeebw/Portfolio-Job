@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diego Poortfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <h1 class="" data-aos="fade-right">Hi, My name is <span>Joee</span> <br> I'm the unknow developer</h1>
+    <div class="btn-properties btn-size-l btn-primary" data-aos="fade-right" data-aos-delay="1000"><a href="#about">Know More</a></div>
+  </header>
+
+  <section id="about" class="about">
+    <div class="about-container">
+      <h2 data-aos="fade-down">ABOUT ME</h2>
+      <div class="info-container">
+        <div class="img-about"  data-aos="flip-left" data-aos-delay="1000"> 
+          <div class="img-container" >
+            <img src="img-about.jpg" alt="">
+          </div>
+        </div>
+        <div class="info-about">
+          <p data-aos="fade-left" data-aos-delay="1500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas natus et nisi mollitia cumque, velit rerum enim eos quod quasi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dicta minima quibusdam officiis in accusamus suscipit? Necessitatibus doloribus aliquam eveniet?</p>
+          <div class="btn-properties btn-size-md btn-secondary" data-aos="zoom-in" data-aos-delay="1800"><a href="">View resume</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 data-aos="zoom-in">PROJECTS</h2>
+    <div class="projects-container">
+      <div class="project-info" data-aos="fade-right" data-aos-delay="800">
+        <h3>Project Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi natus impedit fuga earum accusamus minus dolorum facilis distinctio veniam enim eum, exercitationem dolores fugit repellendus, laborum ullam deleniti asperiores vel libero quaerat illo velit. Accusamus rem provident veritatis hic repellendus!</p>
+        <div class="project-clickable">
+          <div class="btn-properties btn-sm btn-primary"><a href="">SEE LIVE</a></div>
+          <a href="#about"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="img-projects" data-aos="fade-left" data-aos-delay="1200">
+          <img src="https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+      </div>
+    </div>
+    <div class="projects-container">
+      <div class="project-info" data-aos="fade-right" data-aos-delay="800">
+        <h3>Project Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi natus impedit fuga earum accusamus minus dolorum facilis distinctio veniam enim eum, exercitationem dolores fugit repellendus, laborum ullam deleniti asperiores vel libero quaerat illo velit. Accusamus rem provident veritatis hic repellendus!</p>
+        <div class="project-clickable">
+          <div class="btn-properties btn-sm btn-primary"><a href="">SEE LIVE</a></div>
+          <a href="#about"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="img-projects" data-aos="fade-left" data-aos-delay="1200">
+          <img src="https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-container" data-aos="zoom-in" >
+      <h3>CONTACT</h3>
+      <div class="btn-size-l btn-properties btn-secondary"><a href="mailto:joeegaarciia@gmail.com">Send Email</a></div>
+    </div>
+  </section>
+
+  <section id="footer" class="footer">
+    <div class="footer-container" >
+      <a href="#header" data-aos="fade-up"><i class="fa-solid fa-angle-up"></i></a>
+      <div>
+        <a href="" data-aos="fade-up"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="" data-aos="fade-up"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AOS js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <script>
+    AOS.init({
+      delay: 200, // values from 0 to 3000, with step 50ms
+      duration: 800, // values from 0 to 3000, with step 50ms
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+    });
+  </script>
+</body>
+</html>
