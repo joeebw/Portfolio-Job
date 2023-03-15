@@ -2,12 +2,10 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 :root {
   --primary-color: #005792;
-  --secundary-color:white;
 }
 
 
@@ -27,9 +25,6 @@ h3 {
 
 /* Button style */
 .btn-properties {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   position: relative;
   z-index: 1;
@@ -61,6 +56,11 @@ h3 {
   text-decoration: none;
   font-size: 1.8rem;
   font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-primary::before {
@@ -105,6 +105,11 @@ h3 {
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-secondary:hover a {
@@ -347,6 +352,15 @@ header h1 span {
 
 }
 
+@media screen and (max-width: 770px) {
+  .about-container .btn-secondary {
+    position: relative;
+    bottom: 30px;
+  }
+}
+
+
+
 @media screen and (max-width: 640px) {
 
   p {
@@ -396,6 +410,10 @@ h3 {
 
   .projects .btn-primary a {
     font-size: 1rem;
+  }
+
+  .about-container .btn-secondary {
+    bottom: 0;
   }
 
 
