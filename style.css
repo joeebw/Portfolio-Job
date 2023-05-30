@@ -165,7 +165,7 @@ header h1 span {
 
 /* About Section */
 .about {
-  height: 70vh;
+  height: 75vh;
   background: var(--primary-color);
   clip-path: polygon(100% 0, 100% 81%, 30% 100%, 0 100%, 0 0);
   color: white;
@@ -204,7 +204,6 @@ header h1 span {
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 20px;
   position:relative;
   top: 35px;
 }
@@ -229,7 +228,7 @@ header h1 span {
 
 .projects-container {
   display: flex;
-  margin: 150px 120px;
+  margin: 150px 50px;
   gap: 80px;
 }
 
@@ -359,6 +358,10 @@ header h1 span {
     line-height: 1.5; 
   }
 
+  .projects-container {
+    margin: 70px 120px;
+  }
+
 
   /* header */
   header {
@@ -454,7 +457,11 @@ h3 {
   }
 
   .projects-container {
-    margin: 80px 10px;
+    margin: 20px 10px;
+  }
+
+  .projects h2 {
+    margin-bottom: 0;
   }
 
   .projects .btn-primary a {
