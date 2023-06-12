@@ -259,9 +259,15 @@ header h1 span {
   font-size: 1rem;
 }
 
+.project-info span {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
 .project-clickable {
   display: flex;
   gap: 40px;
+  margin: 25px 0;
 }
 
 .project-clickable i {
