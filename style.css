@@ -70,7 +70,7 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   right: 0;
   background: var(--primary-color);
   z-index: -1;
@@ -98,7 +98,7 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   right: 0;
   background: white;
   z-index: -1;
