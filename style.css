@@ -342,6 +342,11 @@ header h1 span {
 
 /* Media screen*/
 @media screen and (max-width: 1024px) {
+
+  .img-projects img {
+    height: 400px;
+  }
+
   /* About */
   .about,
   .contact {
@@ -403,7 +408,6 @@ header h1 span {
   .projects-container {
     flex-direction: column;
   }
-
 }
 
 @media screen and (max-width: 770px) {
@@ -416,6 +420,8 @@ header h1 span {
     height: 300px;
     width: 100%;
   }
+
+  
 }
 
 
